@@ -8,7 +8,7 @@
 <link rel="canonical" href="https://www.sammyswood.com/">
 <meta property="og:title" content="404 — Page not found | Sammys">
 <meta property="og:description" content="The page you are looking for does not exist.">
-<meta property="og:image" content="https://www.sammyswood.com/assets/img/hero.webp">
+<meta property="og:image" content="https://www.sammyswood.com/assets/img/hero.jpg">
 <meta property="og:type" content="website">
 <link rel="preload" href="assets/style.css" as="style">
 <link rel="stylesheet" href="assets/style.css">
@@ -19,7 +19,12 @@
 <body>
 
 <header class="site-header is-solid">
-  <a class="brand" href="index.html">SAMMYS<span>French Haute Custom · Since 1961</span></a>
+  <a class="brand" href="index.html" aria-label="Sammys — home">
+    <img class="brand-logo" src="assets/img/logo-64.png"
+         srcset="assets/img/logo-64.png 64w, assets/img/logo-128.png 128w, assets/img/logo-256.png 256w"
+         sizes="38px" alt="Sammys" width="64" height="64">
+    <span class="brand-text">Sammys<span class="brand-sub">French Haute Custom · Since 1961</span></span>
+  </a>
   <nav class="nav" id="nav">
     <a href="index.html">Home</a><a href="products.html">Collections</a><a href="kitchens.html">Kitchens</a><a href="wardrobes.html">Wardrobes</a><a href="doors.html">Doors & Panels</a><a href="index.html#contact">Contact</a>
     <span class="nav-lang">EN</span>
