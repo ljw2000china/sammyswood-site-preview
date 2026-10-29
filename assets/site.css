@@ -1,0 +1,6 @@
+/* site/ 专用补充样式（在 style.css 之后加载） */
+.crumbs a:hover { color: inherit; }
+.section--pdp-top { padding-top: clamp(96px, 10vw, 140px); }
+@media (max-width: 860px) {
+  .spec div { grid-template-columns: 96px 1fr; }
+}
