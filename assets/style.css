@@ -1,3 +1,12 @@
+/* 自托管字体（避免外部字体阻塞/隐私问题） */
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:300;font-display:swap;src:url('fonts/CormorantGaramond-300.woff2') format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/CormorantGaramond-400.woff2') format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:500;font-display:swap;src:url('fonts/CormorantGaramond-500.woff2') format('woff2')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:300;font-display:swap;src:url('fonts/Inter-300.woff2') format('woff2')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/Inter-400.woff2') format('woff2')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:500;font-display:swap;src:url('fonts/Inter-500.woff2') format('woff2')}
+
+
 /* ============================================================
    Sammys Wood — 高端官网原型样式
    设计基调：法式高定 · 编辑式排版 · 大留白 · 细hairline
